@@ -8,11 +8,25 @@
   <title>Data Structure Visualization</title>
 </head>
 <body>
-  <h1 style="text-align: center">Data Structure Visualization</h1>
-  <div class="input-box">
-    <input type="number" id="new-value" placeholder="Enter a Value" ></input>
-    <button type="button">Add</button>
+  <h1>Data Structure Visualization</h1>
+  <div class="">
+  <h3>Array</h3>
+      <div id="array-size-div" class="input-box">
+          <input type="number" id="array-size" placeholder="Enter Array Size">
+          <button type="submit" id="add-value" onclick="setSize()">Set</button>  
+        </div>
+        <div id="value-div" class="input-box hidden">
+          <input type="text" id="new-value" placeholder="Value" ></input>
+          <input type="text" id="index" placeholder="Index" ></input>
+          <button type="submit" id="add-value" onclick="addValue()">Set</button>
+        </div>
+        <div id="array-div">
+          
+        </div>
   </div>
+  
+
+
   <script src="./libraries/two.js"></script>
   <script src="./libraries/anime.js"></script>
   <script src="app.js"></script>  

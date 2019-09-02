@@ -2,6 +2,29 @@ input#new-value {
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 .input-box {
   text-align: center;
+}
+
+#array-div {
+  text-align: center;
+}
+
+.boxed {
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
 }
